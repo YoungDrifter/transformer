@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# LaTeX 构建产物（notes/ 下只保留源文件与 PDF）
+notes/*.aux
+notes/*.listing
+notes/*.log
+notes/*.out
+notes/*.fls
+notes/*.fdb_latexmk
+notes/*.synctex.gz
+notes/*.xdv
+notes/*.toc
+
+# 训练产物（如需复现训练可保留，默认忽略）
+# checkpoints/
+# tokenizer.json
